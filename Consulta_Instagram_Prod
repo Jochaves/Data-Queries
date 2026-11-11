@@ -1,0 +1,9 @@
+-- Consulta responsável por extrair a evolução diária de seguidores do Instagram.
+-- Retorna a data da coleta, o nome da página e a quantidade de seguidores.
+-- Utilizada como base para análises de crescimento, acompanhamento de desempenho
+-- e construção de dashboards de redes sociais.
+SELECT
+  date,
+  page_name,
+  followers
+FROM dataset.instagram_followers
